@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 20px;
+    margin-left: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  input {
+    padding-left: 30px; /* Adjust padding to fit the icon */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
